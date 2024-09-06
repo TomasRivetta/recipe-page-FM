@@ -1,0 +1,70 @@
+body {
+  background-color: var(--stone-100);
+}
+
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-receta {
+  width: 50vh;
+  background-color: var(--white);
+  padding: 25px;
+  border-radius: 0.5em;
+}
+
+img {
+  border-radius: 0.5em;
+}
+
+.titulo-receta {
+  font-family: var(--font-family-young-serif);
+  font-size: 25px;
+}
+
+.introduccion-receta {
+  font-family: var(--font-family-outfit);
+  font-size: 11px;
+}
+
+.container-tiempo-preparacion {
+  margin: 5% 0;
+  background-color: var(--rose-50);
+  padding: 5px;
+  border-radius: 0.5em;
+}
+
+.contenedor-secundario {
+  margin: 0 0 0 3%;
+}
+
+.titulo-preparacion {
+  color: var(--rose-800);
+  font-weight: bold;
+  font-family: var(--font-family-outfit);
+}
+
+.item-time-preparacion {
+  color: var(--rose-800);
+  font-family: var(--font-family-outfit);
+}
+
+.item-time-preparacion-titulo {
+  color: var(--stone-600);
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
