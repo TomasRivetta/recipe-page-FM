@@ -9,10 +9,11 @@ body {
 }
 
 .contenedor-receta {
-  width: 50vh;
+  width: 60vh;
   background-color: var(--white);
   padding: 25px;
   border-radius: 0.5em;
+  margin: 10vh;
 }
 
 img {
@@ -28,7 +29,6 @@ img {
   font-family: var(--font-family-outfit);
   font-size: 11px;
   color: var(--stone-600);
-
 }
 
 .container-tiempo-preparacion {
