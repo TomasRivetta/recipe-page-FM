@@ -2,6 +2,10 @@ body {
   background-color: var(--stone-100);
 }
 
+p {
+  display: inline-block;
+}
+
 .contenedor-principal {
   display: flex;
   justify-content: center;
@@ -9,7 +13,7 @@ body {
 }
 
 .contenedor-receta {
-  width: 60vh;
+  width: 70vh;
   background-color: var(--white);
   padding: 25px;
   border-radius: 0.5em;
@@ -53,9 +57,14 @@ img {
   font-family: var(--font-family-outfit);
 }
 
-.item-time-preparacion-titulo {
+.item-time-preparacion-titulo,
+.item-time-instruccion-titulo {
   color: var(--stone-600);
   font-weight: bold;
+}
+
+.item-time-preparacion-descripcion {
+  color: var(--stone-600);
 }
 
 .titulo-ingredientes,
