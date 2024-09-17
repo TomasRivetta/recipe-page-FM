@@ -90,6 +90,12 @@ img {
   font-weight: bold;
 }
 
+.item-time-instrucciones-descripcion {
+  color: var(--stone-600);
+  font-weight: normal;
+
+}
+
 .nutricion-introduccion {
   font-family: var(--font-family-outfit);
   font-size: 12px;
@@ -127,4 +133,15 @@ footer {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* MOBILE */
+
+/* - Mobile: 375px */
+@media (max-width: 375px) {
+
+
+  .contenedor-receta {
+    margin: 0;
+  }
 }
